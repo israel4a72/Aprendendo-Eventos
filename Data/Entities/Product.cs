@@ -1,4 +1,4 @@
-using Events.Events;
+using Events.EventsSourcing;
 
 namespace Events.Data.Entities
 {
@@ -14,7 +14,7 @@ namespace Events.Data.Entities
         public string Name { get; private set; }
 
         public delegate void NameUpdatedEventHandler(object source, ProductNameUpdatedEventArgs args);
-        public event NameUpdatedEventHandler NameUpdated;
+        public event NameUpdatedEventHandler NameUpdated = null!;
 
         public void UpdateName(string name)
         {
@@ -23,10 +23,7 @@ namespace Events.Data.Entities
         }
         protected virtual void OnNameUpdated()
         {
-            var e = new ProductNameUpdatedEventArgs
-            {
-                Domain = "Products"
-            };
+            var e = new ProductNameUpdatedEventArgs("Products");
             NameUpdated?.Invoke(this, e);
         }
         public void WhenEventIsRaised(object sender, ProductNameUpdatedEventArgs args)

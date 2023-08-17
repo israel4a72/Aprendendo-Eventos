@@ -460,26 +460,25 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Service Logic\\.nuget\\packages\\": {}
+    "C:\\Users\\silva\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Projetos\\Coding\\Events\\Events.csproj",
+      "projectUniqueName": "E:\\Coding\\2023\\Aprendendo-Eventos\\Events.csproj",
       "projectName": "Events",
-      "projectPath": "D:\\Projetos\\Coding\\Events\\Events.csproj",
-      "packagesPath": "C:\\Users\\Service Logic\\.nuget\\packages\\",
-      "outputPath": "D:\\Projetos\\Coding\\Events\\obj\\",
+      "projectPath": "E:\\Coding\\2023\\Aprendendo-Eventos\\Events.csproj",
+      "packagesPath": "C:\\Users\\silva\\.nuget\\packages\\",
+      "outputPath": "E:\\Coding\\2023\\Aprendendo-Eventos\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Service Logic\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Users\\silva\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net7.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\sdk\\7.0.307\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -526,7 +525,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.307\\RuntimeIdentifierGraph.json"
       }
     }
   }
